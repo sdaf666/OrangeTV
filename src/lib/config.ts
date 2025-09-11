@@ -52,7 +52,7 @@ export const API_CONFIG = {
     },
   },
   shortdrama: {
-    baseUrl: 'https://api.r2afosne.dpdns.org',
+    baseUrl: 'https://spep.2652877047.workers.dev/holixie/https://api.r2afosne.dpdns.org',
     headers: {
       'User-Agent':
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
