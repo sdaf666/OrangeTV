@@ -14,7 +14,7 @@ async function searchShortDrama(query: string, page = 1, limit = 20): Promise<an
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 10000);
 
-    const response = await fetch(`https://api.r2afosne.dpdns.org/vod/search?name=${encodeURIComponent(query)}&page=${page}&limit=${limit}`, {
+    const response = await fetch(`https://spep.2652877047.workers.dev/holixie/https://api.r2afosne.dpdns.org/vod/search?name=${encodeURIComponent(query)}&page=${page}&limit=${limit}`, {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
